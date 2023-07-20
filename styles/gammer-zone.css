@@ -133,7 +133,8 @@ li {
     color: #FFF;
     margin-top: 40px;
 }
-.nd-banner-btn{
+
+.nd-banner-btn {
     margin-left: 20px;
     padding: 21px 40px;
     font-size: 20px;
@@ -350,6 +351,49 @@ li {
     font-weight: 400;
 }
 
+/* expensive-game */
+.garena-ff {
+    display: flex;
+    gap: 165px;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.ff-game-title {
+    padding-left: 240px;
+}
+
+.ff-icon {
+    position: relative;
+    top: 500px;
+    right: 100px;
+}
+
+.ff-image {
+    width: 80%;
+}
+
+.ff-st {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ff-nd {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ff-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* carear-section */
 .carear {
     display: flex;
@@ -445,6 +489,13 @@ p {
 
     color: #FF42A5;
 }
+ .more-game:hover{
+    border: 1.5px solid #FF42A5;
+    
+}
+.more-game>p:hover{
+    color: #FF42A5;
+}
 
 /* footer-section */
 #footer-container {
@@ -479,6 +530,9 @@ p {
 
 .more-description {
     color: #FFF;
+}
+.footer-button{
+    text-decoration-style: none;
 }
 
 
@@ -660,6 +714,53 @@ p {
     .anytime-info {
         padding: 0px;
     }
+    /* expensive-game */
+.garena-ff {
+   flex-direction: column-reverse;
+    gap: 15px;
+     
+    padding-bottom:20px;
+}
+
+.ff-game-title {
+    padding-left: 0px;
+}
+
+.ff-icon {
+    position: relative;
+    top: 235px;
+    right: 250px;
+    width: 30%;
+}
+.image-ff{
+    text-align: right;
+}
+
+.ff-image {
+    width: 90%;
+}
+
+.ff-st {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ff-nd {
+    font-size: 55px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ff-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 
     /* carear-section */
@@ -715,12 +816,8 @@ p {
 
     p {
         padding: 0px;
-        color: #0B0223;
-
         font-size: 20px;
-
         font-weight: 600;
-
     }
 
     #special {
@@ -731,6 +828,7 @@ p {
 
         color: #FF42A5;
     }
+   
 
     /* footer-section */
     #footer-container {
